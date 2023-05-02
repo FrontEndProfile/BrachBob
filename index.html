@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="css/responsive.css" rel="stylesheet">
+    <title>BRANCHBOB</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar_top">
+            <a class="navbar-brand" href="index.html"><img src="images/Logo.svg" alt=""></a>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="language-mobile-links">
+                    <a href="#">DE</a> / <a href="#">EN</a>
+                </div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="functions.html">Functions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="functions.html">Showcase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Demo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+                <li class="nav-item"><a href="#" class="nav-link login">Login</a></li>
+                <li class="nav-item"><a href="#" class="nav-link sign-up"><img src="assets/images/reverse.svg" alt=""
+                            class="ms-1">
+                        Sign Up</a></li>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="mobile-menu">&#9776;</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="functions.html">Functions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Showcase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Demo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+                <div class="my-2 my-lg-0">
+                    <ul class="right-links">
+                        <li class="nav-item"><a href="#" class="nav-link login">Login</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link sign-up"><img src="images/back-arrow.svg"
+                                    alt=""> Sign Up</a></li>
+                        <li class="nav-item dropdown language-parent">
+                            <a class="nav-link dropdown-toggle language" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                DE <img src="images/Path.svg" alt="">
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">ENG</a></li>
+                                <li><a class="dropdown-item" href="#">AR</a></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- =========== hero-sec ========= -->
+    <section class="hero-sec">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-5 order-lg-1 order-2">
+                    <div class="text-box">
+                        <h1 data-aos="fade-up" data-aos-once="true" data-aos-offset="300" data-aos-delay="100">Make money with the beautiful things you love<br> <span>- optimized for social media</span></h1>
+                        <p class="pt-1" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-delay="200">Your products, your store don’t make you dependent on marketplaces - save fees!
+                        </p>
+                        <a href="#" data-aos-once="true" data-aos="fade-up" data-aos-offset="100" data-aos-delay="300" class="btn btn-primary mt-4">Create your free store <img src="images/arrow-right.svg"
+                                class="img-fluid ms-1"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2" data-aos="zoom-in" data-aos-once="true">
+                    <div class="image-holder">
+                        <img src="images/Header-img.svg" class="img-fluid d-md-block d-none">
+                        <img src="images/header-mobile.png" class="img-fluid d-md-none d-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== work-sec =========== -->
+    <section class="work-sec" data-aos="fade-up" data-aos-once="true">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <div class="text-md-center text-box">
+                        <div class="badge">Sell what you love</div>
+                        <h1>Your work, your earnings. Use branchbob completely free of charge.</h1>
+                        <form class="d-flex justify-content-center">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control form-input" placeholder="E-Mail Adress" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <a href="#" class="ms-lg-3 ms-2 btn-default" id="basic-addon2">Sign Up Now</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============== feature-sec ========= -->
+    <section class="feature-sec">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-5 mt-lg-5 order-lg-1 order-2">
+                    <div class="text-box">
+                        <div class="badge d-lg-inline-block d-none" data-aos-once="true" data-aos="fade-up" data-aos-offset="50" data-aos-delay="100">Create your store in seconds</div>
+                        <h1 data-aos="fade-up" data-aos-offset="100" data-aos-once="true" data-aos-delay="200">All the features you need</h1>
+                        <p class="pt-1" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-delay="300">Over 50,000 merchants successfully sell their products with branchbob. It is super easy to set up your own store and finally become independent of marketplaces. Remember: We do not take any fees or commission from your sales.</p>
+                    </div>
+                    <div class="row list-item" data-aos="fade-up" data-aos-once="true" data-aos-offset="100" data-aos-delay="300">
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Create Products</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Promotion features</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Easily design your Store</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Grow with your store</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Sell where you want</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Earn money</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-success" data-aos="fade-up" data-aos-once="true" data-aos-offset="100" data-aos-delay="300">Start a store <img src="images/arrow-right.svg" class="img-fluid ms-2"></a>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-1" data-aos="zoom-in" data-aos-once="true">
+                    <div class="badge d-lg-none d-inline">Create your store in seconds</div>
+                    <div class="swiper mySwiper mySwiper1 mt-lg-0 mt-4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="image-holder"><img src="images/2.png" class="img-fluid  parallax_scroll d-block"><img src="images/1.png" class="img-fluid shippingcard right-img d-block"></div>
+                            </div>
+                            <div class="swiper-slide"> <img src="images/3.png" class="img-fluid d-block parallax_scroll slider-image"><img src="images/4.png" class="img-fluid left">
+                            </div>
+                            <div class="swiper-slide"> <img src="images/6.png" class="img-fluid d-block parallax_scroll   slider-image">
+                                <img src="images/5.png" class="img-fluid d-block image-left slider-image">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== store-sec ======= -->
+    <section class="store-sec">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-once="true">
+                    <div class="badge d-lg-none d-inline">Make it Look Like you want it</div>
+                    <div class="image-holder">
+                        <img src="images/store-img.png" class="img-fluid  scroll-imge">
+                        <img src="images/store-mobile.png" class="img-fluid parallax_scroll ">
+
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="text-box">
+                        <div class="badge d-lg-inline-block d-none" data-aos-once="true" data-aos="fade-up" data-aos-offset="100" data-aos-delay="100">Make it Look Like you want it</div>
+                        <h1 data-aos="fade-up" data-aos-offset="200" data-aos-once="true" data-aos-delay="100">Design your store</h1>
+                        <p class="pt-1" data-aos="fade-up" data-aos-once="true" data-aos-offset="300" data-aos-delay="200">Build your own online store according to your wishes and requirements. Amaze your customers with great design. <br> branchbob offers you everything you need to customise your shop.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============== feature-sec ========= -->
+    <section class=" promote-sec">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mt-5 order-lg-1 order-2">
+                    <div class="text-box">
+                        <div class="badge d-lg-inline-block d-none" data-aos="fade-up" data-aos-once="true" data-aos-offset="50" data-aos-delay="100">Sell Products online</div>
+                        <h1 data-aos="fade-up" data-aos-offset="100" data-aos-once="true" data-aos-delay="200">Promote your store</h1>
+                        <p class="pt-1" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-delay="300">Benefit from branchbob's innovative features that help you increase your sales. Within a few clicks you can promote your store and increase your sales.</p>
+                    </div>
+                    <div class="row list-item" data-aos="fade-up" data-aos-offset="100" data-aos-once="true" data-aos-delay="300">
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Coupons</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Tracking</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Social Selling</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Code Snippets</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Social Posting</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="d-flex align-items-center">
+                                <li><img src="images/akar-icon.svg" class="img-fluid"></li>
+                                <li>
+                                    <p class="pt-2">Parallel Themes</p>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <a href="#" class="btn btn-success mt-1" data-aos="fade-up" data-aos-once="true" data-aos-offset="100" data-aos-delay="300">Start a store <img src="images/arrow-right.svg"
+                            class="img-fluid ms-2"></a>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1" data-aos="zoom-in" data-aos-once="true">
+                    <div class="badge d-lg-none d-inline-block">Sell Products online</div>
+                    <div class="promte-image-holder">
+                        <img src="images/Promotionsection Image.png" class="img-fluid ">
+                        <img src="images/shadow.png" class="img-fluid  parallax_scroll  store-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!-- ========== store-sec ======= -->
+    <section class="security-sec">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-once="true">
+                    <div class="badge d-lg-none d-inline">Get Paid</div>
+                    <div class="image-holder">
+                        <img src="images/Paymentsection image.png" class="img-fluid">
+                        <img src="images/payment-scroll.png" class="img-fluid payment-img parallax_scroll ">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="text-box">
+                        <div class="badge d-lg-inline-block d-none" data-aos="fade-up" data-aos-once="true" data-aos-offset="50" data-aos-delay="100">Get Paid</div>
+                        <h1 data-aos="fade-up" data-aos-offset="100" data-aos-once="true" data-aos-delay="200">Security in E-Commerce</h1>
+                        <p class="py-1" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-delay="300">branchbob offers you many well-known payment methods that are 100% secure. Check them out and let them convince you!</p>
+                        <div class="row list-item" data-aos="fade-up" data-aos-once="true" data-aos-offset="100" data-aos-delay="300">
+                            <div class="col-md-4">
+                                <ul class="d-flex align-items-center">
+                                    <li><img src="images/tick.svg" class="img-fluid"></li>
+                                    <li>
+                                        <p class="pt-2">Paypal</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="d-flex align-items-center">
+                                    <li><img src="images/tick.svg" class="img-fluid"></li>
+                                    <li>
+                                        <p class="pt-2">Credit Card</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="d-flex align-items-center">
+                                    <li><img src="images/tick.svg" class="img-fluid"></li>
+                                    <li>
+                                        <p class="pt-2">Stripe</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="d-flex align-items-center">
+                                    <li><img src="images/tick.svg" class="img-fluid"></li>
+                                    <li>
+                                        <p class="pt-2">Paypal Express</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="d-flex align-items-center">
+                                    <li><img src="images/tick.svg" class="img-fluid"></li>
+                                    <li>
+                                        <p class="pt-2">Cash on Delievery</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="d-flex align-items-center">
+                                    <li><img src="images/tick.svg" class="img-fluid"></li>
+                                    <li>
+                                        <p class="pt-2">Razorpay</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="d-flex align-items-center">
+                                    <li><img src="images/tick.svg" class="img-fluid"></li>
+                                    <li>
+                                        <p class="pt-2">Amazon Payment</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="d-flex align-items-center">
+                                    <li><img src="images/tick.svg" class="img-fluid"></li>
+                                    <li>
+                                        <p class="pt-2">2Checkout</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="d-flex align-items-center">
+                                    <li><img src="images/tick.svg" class="img-fluid"></li>
+                                    <li>
+                                        <p class="pt-2">Clarna and more</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <a href="#" class="btn btn-more text-white" data-aos="fade-up" data-aos-once="true" data-aos-offset="100" data-aos-delay="300">More Information About Payment Methods <img
+                                src="images/arrow-right.svg" class="img-fluid ms-2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== sixth-section ========== -->
+    <section class="sixth-section">
+        <div class="inner-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-lg-9">
+                        <h2 class=" no-margin text-white merchantshead-text" data-aos="fade-up" data-aos-once="true" data-aos-offset="100" data-aos-delay="300">Merchants from over 100 Countries are selling Successfully with branchbob</h2>
+                        <a href="#" class="btn merchants-btn d-lg-inline-block d-none" data-aos="fade-up" data-aos-offset="200" data-aos-delay="300">Join the Community - Start
+                            Now</a>
+                    </div>
+                    <div class="col-md-12 col-lg-2 clients-image-para" data-aos-once="true" data-aos="zoom-in">
+                        <div class=" d-lg-none d-block mt-5">
+                            <div class="row justify-content-center ">
+                                <img src="images/sec1.png" class="img-fluid">
+                                <img src="images/sec2.png" class="img-fluid">
+                            </div>
+                        </div>
+                        <img src="images/man.png" alt="tons" class="full-img man parallax_scroll">
+                        <img src="images/ladies2.png" alt="tons" class="full-img ladies2 parallax_scroll">
+                        <img src="images/ladies1.png" alt="tons" class="full-img ladies1 parallax_scroll">
+                        <img src="images/man2.png" alt="tons" class="full-img man2 parallax_scroll">
+                        <img src="images/man3.png" alt="tons" class="full-img man3 parallax_scroll">
+                        <img src="images/man5.png" alt="tons" class="full-img man5 parallax_scroll">
+                        <img src="images/ladies.png" alt="tons" class="full-img ladies parallax_scroll">
+                        <a href="#" class="btn merchants-btn d-lg-none d-blcok">Join the Community - Start Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============ slider =========== -->
+    <section class="seventh-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="headingtext no-margin text-lg-center">Meet our Happy Customers</h2>
+                    <div class="slider-sec">
+                        <div class="swiper swipper-home">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="text-box">
+                                        <img src="images/Vector.svg" alt="testimonials" class="testimonials">
+                                        <p class="feedback">Alles ging schnell und reibunsglos. Die Einrichtung eines Onlineshops dauerte nur wenige Minuten. Super freundlicher und kompetenter Support.
+                                        </p>
+                                        <div class="media">
+                                            <div class="image">
+                                                <img src="images/weingut.svg" alt="circle" class="circle">
+                                            </div>
+                                            <div class="name ms-3">
+                                                <h4>Weingut Steyrer</h4>
+                                                <div class="review">
+                                                    <img src="images/star.svg" alt="stars">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="text-box">
+                                        <img src="images/Vector.svg" alt="testimonials" class="testimonials">
+                                        <p class="feedback">Dies ist die E-Commerce-Plattform, die ich gesucht habe. Eine Lösung, die man einfach und schnell bedienen und anpassen kann.</p>
+                                        <div class="media">
+                                            <div class="image">
+                                                <img src="images/Powerbuilding24.svg" alt="circle" class="circle">
+                                            </div>
+                                            <div class="name ms-3">
+                                                <h4>Powerbuilding24</h4>
+                                                <div class="review">
+                                                    <img src="images/star.svg" alt="stars">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="text-box">
+                                        <img src="images/Vector.svg" alt="testimonials" class="testimonials">
+                                        <p class="feedback">branchbob bietet mir die Möglichkeit, einen Merchandise-Shop zu fairen Konditionen ohne laufende Kosten anzubieten.</p>
+                                        <div class="media">
+                                            <div class="image">
+                                                <img src="images/frazn.svg" alt="circle" class="circle">
+                                            </div>
+                                            <div class="name ms-3">
+                                                <h4>Franz Josef – Singer & Songwriter</h4>
+                                                <div class="review">
+                                                    <img src="images/star.svg" alt="stars">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="swiper-button-next"><img src="images/left.svg" class="img-fluid"></div>
+                        <div class="swiper-button-prev"><img src="images/right.svg" class="img-fluid"></div>
+                    </div>
+                    <center><a href="#" class="btn btn-show">Show All Showcases</a></center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== eight-sec ========== -->
+    <section class="eighth-section" data-aos="fade-up" data-aos-offset="100" data-aos-delay="300" data-aos-once="true">
+        <div class="inner-content">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h2 class="headingtext">FAQ</h2>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <h2>What’s the Pricing?</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        It is important to us that you as a user have no reductions in your income. We want to support you as a trader to build your business. We provide you with an online store with all basic functions free of charge. Don't worry about our payment. We get money
+                                        from our partners ad Apps and Add ons you can buy in the App Store to grow your business. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <h2>How can I create Product Variants?</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        It is important to us that you as a user have no reductions in your income. We want to support you as a trader to build your business. We provide you with an online store with all basic functions free of charge. Don't worry about our payment. We get money
+                                        from our partners ad Apps and Add ons you can buy in the App Store to grow your business. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <h2>How can i create Payment Methods?</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        It is important to us that you as a user have no reductions in your income. We want to support you as a trader to build your business. We provide you with an online store with all basic functions free of charge. Don't worry about our payment. We get money
+                                        from our partners ad Apps and Add ons you can buy in the App Store to grow your business. </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-faq text-white">See Full FAQ <img src="images/arrow-right.svg"
+                                class="img-fluid ms-2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="headingtext text-center">Ready? Build your online store now!</h2>
+                        <h5 class="text-white text-center d-lg-none d-block">Get Started - it’s free</h5>
+                        <center><a href="" class="btn footer-btn d-lg-inline-block d-none">Get Started - It’s free </a>
+                        </center>
+                        <center><a href="" class="btn footer-btn d-lg-none d-block">Let’s Start </a></center>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="row footer-row-moible">
+                    <div class="col col-xs-12">
+                        <div class="logo"><a href="#"><img src="images/Logo.svg" alt=""></a></div>
+                    </div>
+                    <div class="col">
+                        <h4 class="footer-headings">PRODUCT</h4>
+                        <ul>
+                            <li><a href="#">App Store</a></li>
+                            <li><a href="#">Theme Store</a></li>
+                            <li><a href="#">Payment methods</a></li>
+                            <li><a href="#">Designer</a></li>
+                            <li><a href="#">Developer</a></li>
+                            <li><a href="#">Agency</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4 class="footer-headings">COMPANY</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Imprint</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4 class="footer-headings">DOCUMENTATION</h4>
+                        <ul>
+                            <li><a href="#">REST-API</a></li>
+                            <li><a href="#">Designer Guide</a></li>
+                            <li><a href="#">Helpcenter</a></li>
+                            <li><a href="#">Video Tutorials</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="social-media">
+                            <a href="#" class="ms-2"><img src="images/facebook.svg" alt="facbook"></a>
+                            <a href="#" class="ms-2"><img src="images/insta.svg" alt="insta"></a>
+                            <a href="#" class="ms-2"><img src="images/linkden.svg" alt="link"></a>
+                            <a href="#" class="ms-2"><img src="images/googleplus.svg" alt="googleplus"></a>
+                            <a href="#" class="ms-2"><img src="images/pintrest.svg" alt="pintrest"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+
+            duration: 1500,
+        });
+    </script>
+
+</html>
